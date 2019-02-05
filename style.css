@@ -51,6 +51,8 @@ nav.navbar {
     display: block;
     width: 35px;
     height: 35px;
+    box-shadow: 4px 4px 7px #333;
+
 }
 .social-list li:hover i {
     color: #589ba0;
@@ -263,7 +265,7 @@ nav.navbar {
 
 /*social list main*/
 .social-footer {
-    background: #fff;
+    background:url("images/grade.png");
 }
 .social-footer h2 {
     margin: 5% 0 3%;
@@ -272,6 +274,7 @@ nav.navbar {
     display: inline-block;
     padding: 0;
     margin-bottom: 5%;
+    
 }
 .social-footer .social-list li a{
     display: block;
@@ -279,7 +282,8 @@ nav.navbar {
     border: 2px solid #444;
     transform: rotate(45deg);
     width: 60px;
-    height: 60px;
+    height: 60px; 
+    box-shadow: 8px 4px 7px #333;
 }
 .social-footer .social-list li {
     display: inline-block;
